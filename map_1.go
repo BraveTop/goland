@@ -5,7 +5,7 @@ import (
 )
 
 func a() {
-	defer func()  {
+	defer func() {
 		err := recover()
 		if err != nil {
 			fmt.Println(err)
